@@ -1,0 +1,300 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    font-family: emoji;
+    list-style: none;
+}
+/* start header section */
+header{
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+/* start navbar section */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20%;
+}
+nav a img{
+    width: 120px;
+    height: 80px;
+    transition: 0.7s ease;
+}
+nav a img:hover{
+    transform: scale(1.1);
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+nav ul li,nav ul li a{
+    margin-left: 10px;
+    color: #fff;
+    font-weight: 900;
+    transition: 0.2s ease-in;
+}
+nav ul li,nav ul li a:hover{
+    transform: scale(0.94);
+    color: #ff9387;
+}
+nav button{
+    width: 10%;
+    height: 30px;
+    background-color: #ed7c6a;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    transition: 0.3s ease-in;
+}
+nav button:hover{
+    transform: scale(0.93);
+    cursor: pointer;
+}
+/* end navbar section */
+/* start welcome statement division */
+.wel-state{
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    background-color: #5fc5a3e5;
+    opacity: 0.65;
+    height: 450px;
+    width: 35%;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    transition: 0.7s ease;
+}
+
+.wel-state:hover{
+    transform: scale(0.94);
+    background-color: #55b092e5;
+    opacity: 1;
+}
+.wel-state p{
+    margin-top: 5%;
+    margin-left: 7%;
+    height: 80%;
+    width: 75%;
+    font-size: 54px;
+    letter-spacing: 3px;
+    color: #fff;
+    line-height: 1.4;
+    word-spacing: 10px;
+}
+/* end welcome statement division */
+/* end header section */
+/* start about section */
+#about{
+    position: relative;
+    height: 540px;
+    padding: 2%;
+}
+#about h2{
+    text-align: center;
+    font-family: cursive;
+    margin-bottom: 6px;
+    font-size: 30px;
+    color: #005259;
+    font-weight: 300;
+}
+#about hr{
+    width: 16%;
+    height: 5px;
+    margin: auto;
+    background-color: #e87300;
+    border: none;
+}
+#about img{
+    width: 340px;
+    height: 200px;
+    margin-top: 13%;
+    margin-left: 25%;
+}
+.right{
+    display: inline-block;
+    width: 30%;
+    position: absolute;
+    top: 45%;
+    left: 54%;
+}
+.right h3{
+    font-family: cursive;
+    font-weight: 500;
+    color: #0095a4;
+    font-size: 24px;
+}
+.right p{
+    font-family: cursive;
+}
+/* end about section */
+/* start affairs section */
+/* frist services */
+#affairs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services{
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+.services img{
+    width: 100%;
+    height: 106%;
+    background-image: url(../img/i-love-my-job-so-much_329181-2178.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 14%;
+}
+.content h2{
+    font-weight: 500;
+    margin-bottom: 4%;
+    font-family: cursive;
+    font-size: 32px;
+    text-transform: capitalize;
+    color: #fff;
+}
+.cards{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 8%;
+}
+.card{
+    border: solid #bbbbbb7d;
+    border-radius: 3%;
+    height: 384px;
+    width: 18%;
+    padding: 1%;
+    text-align: center;
+    background-color: #fff;
+    transition: 0.7s ease;
+}
+.card img{
+    width: 90%;
+    height: 180px;
+    border-radius: 23%;
+}
+.card h4{
+    text-align: left;
+    color: #4da6a1;
+    font-size: 25px;
+    margin: 10px 0;
+    font-weight: 100;
+}
+.card p{
+    width: 100%;
+    font-size: 17px;
+    text-indent: 8px;
+    color: #777;
+    line-height: 1.6;
+    text-align: center;
+    word-spacing: 2px;
+}
+.card:hover{
+    transform: scale(0.97);
+}
+/* second doctors */
+.doctors{
+    width: 70%;
+    margin: 8% 0;
+    display: flex;
+    justify-content: space-around;
+}
+.doctors a img{
+    width: 91%;
+    height: 60px;
+    transition: 0.7s ease
+}
+.doctors a img:hover{
+    transform: scale(1.1);
+}
+
+/* end affairs section */
+/* start footer section */
+footer{
+    background-color: #0d6b58;
+    padding: 2%;
+    height: 270px;
+    position: relative;
+    color: #fff;
+    border-top-left-radius: 160px;
+    border-top-right-radius: 160px;
+}
+.f-left{
+    float: left ;
+}
+.f-right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.end-st{
+    width: 32%;
+    text-align: center;
+    margin-left: 13%;
+    margin-top: 1%;
+}
+.end-st h2{
+    line-height: 2.5;
+    font-size: 30px;
+}
+.infos{
+    width: 30%;
+    display: flex;
+    margin-right: 20%;
+    margin-top: 1%;
+    justify-content: space-around;
+}
+.infos .infos-container h3{
+    font-size: 27px;
+    color:#ff9387;
+}
+.infos .infos-container ul{
+    margin-top: 30px;
+}
+.infos .infos-container ul li,.infos .infos-container ul li a{
+    color: #fff;
+    margin: 24% 2px;
+    transition: 0.5s ease;
+}
+.infos .infos-container ul li a:hover{
+    color:#ff9387;
+}
+.social{
+    width: 15%;
+    position: absolute;
+    bottom: 5%;
+    left: 16%;
+}
+.social a{
+    color: #fff;
+    font-size: 35px;
+    margin-left: 8%;
+    transition: 0.5s ease;
+}
+.social a:hover{
+    color:#ff9387;
+}
+/* end footer section */
